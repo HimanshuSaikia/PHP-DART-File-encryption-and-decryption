@@ -76,7 +76,7 @@ class EncDcrypt
         $encryptedString=file_get_contents($inPath);
         $key = base64_decode($encKey);
         $iv = base64_decode($encIV);
-		$path_parts = pathinfo($inPath);
+	$path_parts = pathinfo($inPath);
         $fileName=$path_parts['filename'];
         $outFile=$outPath.$fileName.'.mp4';
         $encrypter = 'aes-256-cbc';
