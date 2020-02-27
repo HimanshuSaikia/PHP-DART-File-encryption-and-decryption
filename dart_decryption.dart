@@ -4,6 +4,8 @@ import 'package:path/path.dart' as p;
 import 'package:path_provider/path_provider.dart';
 import 'package:encrypt/encrypt.dart' as enc;
 
+-----------------------------------------------------------------------------------------------------
+
 Future<String> decryptFile(filePath) async{  //'filePath' contains the php encrypted video file.
     var encodedKey = 'FCAcEA0HBAoRGyALBQIeCAcaDxYWEQQPBxcXHgAFDgY=';
     var encodedIv = 'DB4gHxkcBQkKCxoRGBkaFA==';
